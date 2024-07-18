@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.callumwong.disablejoinleave.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "server": [
+    "PlayerManagerMixin",
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
